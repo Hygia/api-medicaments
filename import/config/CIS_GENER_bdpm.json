@@ -5,7 +5,7 @@
   },
   "mapping": {
     "identifiantGenerique":  { "position": 0 },
-    "libelleGenerique": { "position": 1, "type": "integer" },
+    "libelleGenerique": { "position": 1 },
     "cis":  { "position": 2 },
     "type" :  { "position": 3 }
   }
