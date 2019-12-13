@@ -5,8 +5,8 @@
   },
   "mapping": {
     "cis":  { "position": 0 },
-    "codeHauteAutoriteSante": { "position": 1, "type": "integer" },
-    "motifEvaluation":  { "position": 2, "type": "integer" },
+    "codeHauteAutoriteSante" :  { "position": 1 },
+    "motifEvaluation":  { "position": 2 },
     "dateEvaluation" :  { "position": 3 },
     "valeurASMR" :  { "position": 4 },
     "libelleASMR" :  { "position": 5 }
