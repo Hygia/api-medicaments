@@ -5,8 +5,8 @@
   },
   "mapping": {
     "cis":  { "position": 0 },
-    "codeHauteAutoriteSante": { "position": 1, "type": "integer" },
-    "motifEvaluation":  { "position": 2, "type": "integer" },
+    "codeHauteAutoriteSante":  { "position": 1 },
+    "motifEvaluation":  { "position": 2 },
     "dateEvaluation" :  { "position": 3 },
     "valeurSMR" :  { "position": 4 },
     "libelleSMR" :  { "position": 5 }
