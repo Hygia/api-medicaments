@@ -8,13 +8,12 @@ ADD ./package.json /srv/app/
 WORKDIR /srv/app
 RUN npm install --production
 
-RUN /bin/bash -c "source ./bin/download.sh"
-
 ADD ./data ./data
 ADD ./defaults.json ./
 ADD ./bin ./bin
 ADD ./import ./import
 
+RUN ./bin/download.sh
 RUN ./bin/import
 
 ADD ./api ./api
