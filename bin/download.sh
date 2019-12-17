@@ -1,5 +1,4 @@
 #!/bin/bash
-echo "Start Job"
 
 curl "http://base-donnees-publique.medicaments.gouv.fr/telechargement.php?fichier=CIS_bdpm.txt" > data/CIS_bdpm.txt
 curl "http://base-donnees-publique.medicaments.gouv.fr/telechargement.php?fichier=CIS_CIP_bdpm.txt" > data/CIS_CIP_bdpm.txt
@@ -10,4 +9,4 @@ curl "http://base-donnees-publique.medicaments.gouv.fr/telechargement.php?fichie
 curl "http://base-donnees-publique.medicaments.gouv.fr/telechargement.php?fichier=CIS_GENER_bdpm.txt" > data/CIS_GENER_bdpm.txt
 curl "http://base-donnees-publique.medicaments.gouv.fr/telechargement.php?fichier=CIS_CPD_bdpm.txt" > data/CIS_CPD_bdpm.txt
 
-echo "Job done"
+echo "Téléchargement terminé"
